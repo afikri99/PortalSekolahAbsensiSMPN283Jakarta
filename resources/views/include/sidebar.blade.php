@@ -27,22 +27,22 @@
                 </a>
                 <ul class="nav nav-treeview bg-dark rounded">
                   <li class="nav-item"> 
-                    <a href="./docs/how-to-contribute.html" class="nav-link">
+                    <a href="{{route('guru.index')}}" class="nav-link">
                       <p>Guru</p>
                     </a>
                   </li>
                   <li class="nav-item"> 
-                    <a href="./docs/how-to-contribute.html" class="nav-link">
+                    <a href="{{route('kelas.index')}}" class="nav-link">
                       <p>Kelas</p>
                     </a>
                   </li>
                   <li class="nav-item"> 
-                    <a href="./docs/how-to-contribute.html" class="nav-link">
+                    <a href="{{route('matapelajaran.index')}}" class="nav-link">
                       <p>Mata Pelajaran</p>
                     </a>
                   </li>
                   <li class="nav-item"> 
-                    <a href="./docs/how-to-contribute.html" class="nav-link">
+                    <a href="{{route('siswa.index')}}" class="nav-link">
                       <p>Siswa</p>
                     </a>
                   </li>
