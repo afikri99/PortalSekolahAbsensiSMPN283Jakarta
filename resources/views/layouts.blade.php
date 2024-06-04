@@ -1,0 +1,5 @@
+@include("include.header") 
+@include("include.navbar") 
+@include("include.sidebar")
+@yield("main") 
+@include("include.footer") 
